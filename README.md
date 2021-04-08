@@ -3,10 +3,10 @@
   Ignite - Trilha ReactJS
 </h2>
 <p align="center">
-  <a href="https://github.com/rocketseat-education/ignite-template-reactjs-criando-um-projeto-do-zero">Template da aplicação</a>
+  <a href="https://github.com/matheuslanduci/desafio05-trilha-react">Template da aplicação</a>
 </p>
 <p align="center">
-  Desafio: Criando uma aplicação do zero
+  Desafio: Adicionado features ao blog
 </p>
 
 ## 🚀 Como executar
