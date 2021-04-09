@@ -9,6 +9,7 @@
 
   article {
     margin-top: 3rem;
+    margin-bottom: 2rem;
     width: 100%;
 
     h1 {
@@ -41,6 +42,20 @@
         }
       }
     }
+
+    .updatedTime {
+      margin-top: 1rem;
+
+      display: block;
+
+      font-size: 0.875rem;
+    }
+
+    hr {
+      width: 100%;
+      border-bottom: 1px solid var(--body);
+      opacity: 0.1;
+    }
   }
 }
 
@@ -56,5 +71,55 @@
 
   p {
     margin-bottom: 0.5rem;
+  }
+}
+
+.navPosts {
+  margin-top: 3rem;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  .previousPost,
+  .nextPost {
+    width: 40%;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .title,
+    strong {
+      font-size: 1.125rem;
+      line-height: 1.125rem;
+    }
+
+    .title {
+      color: var(--heading);
+    }
+
+    strong {
+      margin-top: 0.5rem;
+
+      display: block;
+
+      color: var(--highlight);
+      font-weight: 600;
+    }
+
+    &:hover {
+      filter: brightness(0.8);
+
+      strong {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .nextPost {    
+    align-items: flex-end;
+    text-align: end;
   }
 }
